@@ -1,0 +1,32 @@
+.AboutMe{
+    display: flex;
+    flex-direction: column;
+    margin:5%;
+    margin: 3% 10% 3% 10% ;
+}
+.AboutMe img{
+    width:19vw;
+    border-radius: 5px;
+}
+.AboutMe p{
+    width:70%;
+    float: right;
+}
+.ImageParagraph{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.AboutMe a{
+    text-decoration: none;
+    width: 50%;
+    background-color: #f9c22e;
+    margin:auto;
+    border:solid black 2px;
+}
+.AboutMe .tag {
+    border:none;
+}

@@ -1,0 +1,26 @@
+.Menu{
+    display: flex;
+    align-items: top ;
+    justify-content: space-between;
+    height:75px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 10px;
+}
+
+.Menu h1{
+align-content: center;
+margin:0px;
+}
+.Menu button{
+width:10vw;
+    background-color: #f9c22e;
+    margin:auto;
+}
+.Menu a{
+    text-decoration: none;
+    width: 50%;
+    background-color: #f9c22e;
+    margin:auto;
+    border:solid black 2px;
+    padding: 0px 10px 0px 10px;
+}

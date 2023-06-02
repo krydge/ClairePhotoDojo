@@ -1,0 +1,24 @@
+.HireMe form {
+    display: flex;
+    flex-direction: column;
+    transform: skew(1);
+    background-color: #dd5e98;
+    padding:3%;
+    border-radius: 5px;;
+}
+
+.HireMe button {
+    width: 50%;
+    background-color: #f9c22e;
+    margin: auto;
+    margin-top: 10px;
+}
+.HireMe label {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.HireMe {
+    margin: 3% 10% 3% 10% ;
+}

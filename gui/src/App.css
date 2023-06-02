@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+
+}
+
+a:link {
+  text-decoration: none;
+  color:black;
+}
+
+a:visited {
+  text-decoration: none;
+  color:black;
+}
+
+/* 
+pink: dd5e98
+blue: 26547c
+white: ffffff
+lightBlue: 17c3b2
+yellow: f9c22e 
+*/

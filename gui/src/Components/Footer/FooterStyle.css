@@ -1,0 +1,17 @@
+.Footer {
+    background-color: #dd5e98;
+    padding: 20px;
+    align-content: center;
+}
+
+.Footer a {
+    text-decoration: none;
+}
+
+.Privacy:hover{
+    cursor:pointer;
+}
+.Privacy{
+    width: fit-content;
+    margin:auto;
+}

@@ -1,0 +1,61 @@
+.Carasal {
+
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    justify-content: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+    width:100%;
+}
+
+.Prev {
+    width: 33%;
+    filter: blur(3px);
+    position: relative;
+    left: 110px;
+    z-index: -1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Next {
+    width: 33%;
+    filter: blur(3px);
+    position: relative;
+    right: 110px;
+    z-index: -1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Current {
+    width: 44%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.carasolImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carasolImg button {
+    opacity: 50%;
+    transition: opacity .7s;
+    margin:-100px;
+}
+
+.carasolImg button:hover {
+    opacity: 80%;
+    transition: opacity .7s;
+}
+
+.CarasolSelector {
+    display: flex;
+    margin: auto;
+}
+
+.CarasolSelector img {
+    width:20px;
+    border-radius: 10px;
+    height:20px;
+}
